@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Music Game</string>
+    <integer name="pay_tip_answer">90</integer>
+    <integer name="pay_delete_word">30</integer>
+</resources>

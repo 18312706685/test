@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dfz.mymusicgame.ui.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/index_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- Top bar -->
+        <include layout="@layout/top_bar" />
+
+        <include layout="@layout/pan_layout"/>
+
+        <include layout="@layout/name_select"/>
+
+    </LinearLayout>
+    <include layout="@layout/float_buttons"/>
+    <include layout="@layout/answer_right"/>
+</FrameLayout>
